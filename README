@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution RGB2HSI,
+version 0.01:
+
+  Convert RGB color to HSI (hue saturation intensity) color-space
+
+This software is copyright (c) 2012 by Renato Cron.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+
