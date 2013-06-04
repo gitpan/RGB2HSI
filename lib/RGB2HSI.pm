@@ -5,6 +5,8 @@ require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw(rgb2hsi);
 
+our $VERSION = 0.012;
+
 sub rgb2hsi {
     my ($R, $G, $B) = @_;
     my ($H, $S, $I) = (0,0,0);
@@ -107,6 +109,8 @@ Now let m be the minimum value among R, G, and B. The HSI saturation value of a 
     S = 1 - m/I    if I > 0, or
     S = 0            if I = 0
 
+
+You can use IUP::ColorDlg to convert RGB to HSI (HEX too) but it's too big to install if you only need RGB2HSI !
 
 =head1 NAME
 
